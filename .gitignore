@@ -1,7 +1,7 @@
 # Terraform
 *.tfstate
 *.tfstate.*
-.terraform/
+**/.terraform/
 terraform.tfvars
 crash.log
 *.log
@@ -17,7 +17,7 @@ crash.log
 **/original-*.jar
 
 # Maven
-.mvn/
+**/.mvn/
 mvnw
 mvnw.cmd
 
