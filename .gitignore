@@ -7,12 +7,19 @@ crash.log
 *.log
 *.backup
 
-# Java
-/target/
+# Java - EXPANDED
+**/target/
 *.class
 *.jar
 *.war
 *.ear
+**/dependency-reduced-pom.xml
+**/original-*.jar
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
 
 # AWS credentials
 *.pem
@@ -26,3 +33,7 @@ crash.log
 # OS files
 .DS_Store
 Thumbs.db
+
+# AWS/Lambda specific
+**/managed_context/
+**/test_suite_analysis/
