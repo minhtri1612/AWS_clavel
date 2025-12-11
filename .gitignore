@@ -1,11 +1,15 @@
-# Terraform
+# Terraform - IGNORE EVERYTHING
+terraform/
 *.tfstate
 *.tfstate.*
 **/.terraform/
 terraform.tfvars
+*.tfvars
 crash.log
 *.log
 *.backup
+*.tf
+*.tf.json
 
 # Java - EXPANDED
 **/target/
