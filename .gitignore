@@ -1,0 +1,28 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+crash.log
+*.log
+*.backup
+
+# Java
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# AWS credentials
+*.pem
+*.key
+
+# IDE/Editor
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
